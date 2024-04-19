@@ -1,0 +1,45 @@
+https://rapidapi.com/alphavantage/api/alpha-vantage/
+
+CURRENCY_EXCHANGE_RATE (Crypto)
+
+//code snippet
+
+const axios = require('axios');
+
+const options = {
+  method: 'GET',
+  url: 'https://alpha-vantage.p.rapidapi.com/query',
+  params: {
+    from_currency: 'BTC',
+    function: 'CURRENCY_EXCHANGE_RATE',
+    to_currency: 'USD'
+  },
+  headers: {
+    'X-RapidAPI-Key': 'c4fedd50f1msh06e01901e0e0c05p13c0fejsn99ecc7eed1df',
+    'X-RapidAPI-Host': 'alpha-vantage.p.rapidapi.com'
+  }
+};
+
+try {
+	const response = await axios.request(options);
+	console.log(response.data);
+} catch (error) {
+	console.error(error);
+}
+
+
+//example response
+
+{
+  "Realtime Currency Exchange Rate": {
+    "1. From_Currency Code": "BTC",
+    "2. From_Currency Name": "Bitcoin",
+    "3. To_Currency Code": "USD",
+    "4. To_Currency Name": "United States Dollar",
+    "5. Exchange Rate": "10347.92000000",
+    "6. Last Refreshed": "2020-02-12 19:05:01",
+    "7. Time Zone": "UTC",
+    "8. Bid Price": "10347.91000000",
+    "9. Ask Price": "10348.63000000"
+  }
+}

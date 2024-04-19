@@ -1,0 +1,158 @@
+.Crypto{
+    color:#0049b7;
+    align-items: center;
+}
+
+.loading{
+    display:grid;
+    grid-template-columns: repeat(3,30%);
+    margin:auto;
+    width: 50%;
+    border: 2px solid #0049b7;
+    /* padding-left: 20%; */
+    padding-top: 1%;
+    padding-bottom:1%;
+    grid-gap: 1%;
+    border-radius: 25px;
+    background-color: #fff685;
+}
+
+.loader{
+    display: "block";
+    margin: "0 auto";
+    color: #0049b7;
+    margin: 0 auto;
+    size: 200px;
+    padding-top: 10%;
+}
+
+.icon{
+    padding: 3%;
+    margin:auto;
+    width: auto;
+}
+
+.controls{
+
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(4, 20%);
+    padding-left:10%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.toggler{
+    display:grid;
+    width: 50%;
+    margin:auto;
+    grid-template-columns: repeat(2, 20%);
+    grid-gap: 5%;
+    padding-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+table{
+    margin:auto;
+    width:60%;
+    text-align: left;
+    border: 1px solid #0049b7;
+}
+
+th{
+    border: 1px solid #0049b7;
+    text-align: center;
+}
+
+td{
+    border: 1px solid #0049b7;
+    color:black;
+    font-size: 16px;
+}
+
+tr:nth-child(even){
+    background-color: #00ddff;
+}
+
+.chart{
+    padding-top: 5%;
+    width: 90%;
+    margin:auto;
+    align-items: center;
+}
+
+.timer{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: white;
+    margin:auto;
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.time{
+    color:blue;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px grey ;
+}
+
+.button{
+    padding: 5%;
+    text-decoration: none;
+    border: solid blue;
+    margin: auto;
+    border-radius: 15px;
+    background-color: blue;
+    color:white;
+}
+
+.button:hover  {
+    padding: 5%;
+    text-decoration: none;
+    border: solid blue;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+}
+
+.button:active  {
+    padding: 5%;
+    text-decoration: none;
+    border: solid blue;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    color: blue;
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.select{
+    color:#ff1d58;
+    border: solid #ff1d58 3px;
+    padding: 5%;
+    margin:auto;
+    border-radius:15px ;
+    font-size: 15px;
+}
+
+.select:hover{
+    background-color: #fff685;
+    color:#ff1d58;
+}
+
+.select:focus{
+    background-color: #fff685;
+    color:#ff1d58;
+}
+
+
+option {
+    color:#f75990;
+}

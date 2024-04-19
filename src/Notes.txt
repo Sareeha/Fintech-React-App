@@ -1,0 +1,83 @@
+//component division
+-------------------
+
+There will be 4 components
+
+Stella -ETF
+
+Saran-Forex
+
+Sariha-Stocks
+
+Jian - CRYPTO!
+
+
+//libraries required for this app
+----------------------------------
+
+a-react router
+
+b-axios
+
+react spinners
+npm install --save react-spinners
+
+c-font awesome
+https://fontawesome.com/docs/web/use-with/react/
+
+1-
+npm i --save @fortawesome/fontawesome-svg-core
+
+2-
+# Free icons styles
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+3-
+# Pro icons styles
+npm i --save @fortawesome/pro-solid-svg-icons
+npm i --save @fortawesome/pro-regular-svg-icons
+npm i --save @fortawesome/pro-light-svg-icons
+npm i --save @fortawesome/pro-thin-svg-icons
+npm i --save @fortawesome/pro-duotone-svg-icons
+npm i --save @fortawesome/sharp-solid-svg-icons
+npm i --save @fortawesome/sharp-regular-svg-icons
+npm i --save @fortawesome/sharp-light-svg-icons
+
+4-
+npm i --save @fortawesome/react-fontawesome@latest
+
+5-
+npm install babel-plugin-macros
+
+https://fontawesome.com/docs/web/use-with/react/add-icons
+
+//add individual explicitly
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+const element = <FontAwesomeIcon icon={faEnvelope} />
+
+ReactDOM.render(element, document.body)
+
+d- Recharts
+npm install recharts
+https://recharts.org/en-US/guide
+
+
+
+7th Oct 2023
+
+Ideas for more features -Home page
+
+- Watch list - have a feature to add the particular row of stock/etf/forex/crypto into favourites. and this adds into homepage/watchlist
+    use useContex to share data across all components
+
+- News
+    about current stocks/etf/forex/currency
+
+
+
+
