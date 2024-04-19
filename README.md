@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 This project is a React application designed to fetch and display stock data using the Alpha Vantage API. It provides a simple interface for users to load stock data, which includes both a chart representation and a tabular view of the data. The application utilizes Axios for API requests and includes components for displaying both the stock chart and table. This project is ideal for developers looking to integrate stock data visualization into their web applications.
 
 Features:
