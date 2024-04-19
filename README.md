@@ -1,4 +1,14 @@
+# Fintech React Application
+
+This project is a React application designed to fetch and display stock data using the Alpha Vantage API. It provides a simple interface for users to load stock data, which includes both a chart representation and a tabular view of the data. The application utilizes Axios for API requests and includes components for displaying both the stock chart and table. This project is ideal for developers looking to integrate stock data visualization into their web applications.
+
+## Features:
+
+- Fetches stock data from the Alpha Vantage API.
+- Presents the data in both chart and table formats.
+- Provides a user-friendly interface for loading and viewing stock data.
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
